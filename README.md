@@ -123,7 +123,7 @@ Example use of the `cache` option:
  * type: `function(Object, function(boolean))`
  * default: `null`
 
-The `newer` task determines which files to include for a specific task based on file modification time.  There are occassions where you may want to include a file even if it has not been modified.  For example, if a LESS file imports some other files, you will want to include it if any of the imports have been modified.  To support this, you can provide an `override` function that takes two arguments:
+The `newer` task determines which files to include for a specific task based on file modification time.  There are occasions where you may want to include a file even if it has not been modified.  For example, if a LESS file imports some other files, you will want to include it if any of the imports have been modified.  To support this, you can provide an `override` function that takes two arguments:
 
  * **details** - `Object`
    * **task** - `string` The currently running task name.
